@@ -6,7 +6,7 @@ permalink: /about/
 
 Hi there, I am Machine Learning engineer, currently working in Amsterdam .
 I love to use open source project machine learning, optimisation techniques to solve my day to day problems . Eg how to lock my laptop when I am move away from my screen
-or find pictures similar pictures in my laptop, to the one that I provide using project like https://github.com/matsui528/sis
+or find pictures similar pictures in my laptop, to the one that I provide using project like sis (https://github.com/matsui528/sis)
 
 ### More Information
 
