@@ -4,8 +4,8 @@ title: About
 permalink: /about/
 ---
 
-Hi there, I am Machine Learning engineer, currently working in Amsterdam .
-I love to use open source project machine learning, optimisation techniques to solve my day to day problems.
+Hi there, I am Data Scientist based out of Amsterdam.
+I love to use open source projects, machine learning, optimisation techniques to solve my day to day problems.
 
 ### More Information
 
@@ -14,7 +14,13 @@ I am also an avid reader of history, politics and economics . Some of the book I
 1. Teaching Economics to my Daughter
 2. Silk Roads
 3. Half Lion
+4. Jugalbandi
+
+I am also the creator of [ESR Bot](https://twitter.com/bot_esr). This bot tweets about the various environment related news to create awareness.
 
 ### Contact me
 
-[panda.anil1989@gmail.com](mailto:email@domain.com)
+Feel free to connect with me.
+
+
+[Mail](panda.anil1989@gmail.com) | [LinkedIn](https://www.linkedin.com/in/anilkumarpanda/)
