@@ -7,9 +7,9 @@ While browsing Twitter , I came across this [tweet](https://twitter.com/abhi1tha
 
 ![Labelling data](../images/abhi_labelling.png)
 
-Though it is meant as a joke, there is quite some truth to it. Everybody wants to build a ML model, but 
+Though it is meant as a joke, there is quite some truth to it. Everybody wants to build a ML model, but many dont want to put effort into obtaining/creating datasets.
+Many a times in a company, there exists vast unlablled datasets. Value in these datasets can be unlocked, if they can be labelled efficiently.
 
-In the my previous projects too this approach of labelling data was quite useful.
 The branch of machine learning that deals with labelling data is called Active Learning.
 Though it is quite a vast field, I will try to provide a summary of the most frequent(read easy) methods used,some learning and ofcourse links to different resources.
 
