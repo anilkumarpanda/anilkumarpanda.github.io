@@ -1,10 +1,13 @@
-# Active Learning
+---
+layout: post
+title: Active Learning
+---
 
-I came across this [interesting tweet](https://twitter.com/abhi1thakur/status/1441088040873578500)
+While browsing Twitter , I came across this [tweet](https://twitter.com/abhi1thakur/status/1441088040873578500)
 
-<img src="../images/abhi_labelling.png" alt="Labelling data" style="float: left; margin-right: 10px;"/>
+![Labelling data](../images/abhi_labelling.png)
 
-Though it is meant as a joke, there is quite some truth to it.
+Though it is meant as a joke, there is quite some truth to it. Everybody wants to build a ML model, but 
 
 In the my previous projects too this approach of labelling data was quite useful.
 The branch of machine learning that deals with labelling data is called Active Learning.
