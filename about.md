@@ -3,7 +3,6 @@ layout: page
 title: About
 permalink: /about/
 ---
- <a href="url"><img src="https://raw.githubusercontent.com/anilkumarpanda/anilkumarpanda.github.io/master/images/profile.jpeg" height="100" width="auto" style="border-radius:50%"></a>
 
 Hi there, I am Data Scientist based out of Amsterdam.
 I love to use open source projects, machine learning, optimisation techniques to solve my day to day problems.

@@ -92,7 +92,7 @@ This twitter bot tweets about the various environment related news to spread awa
 Another package that uses AL is [Deduplipy](https://www.deduplipy.com/) created by [Frits Hermans](https://www.linkedin.com/in/frits-hermans-data-scientist/). 
 It implements deduplication using active learning.
 
-If you interested to use active learning in your project or have any questions/feedback about this blog [do reach out](../about.md)
+If you interested to use active learning in your project or have any questions/feedback about this blog [do reach out](../about.html)
 
 ## References
 
