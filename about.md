@@ -21,6 +21,4 @@ I am also the creator of [ESR Bot](https://twitter.com/bot_esr). This bot tweets
 
 ### Contact me
 
-Feel free to connect with me.
-
-[Mail](panda.anil1989@gmail.com)  |  [LinkedIn](https://www.linkedin.com/in/anilkumarpanda/)
+Feel free write to drop me a [mail](panda.anil1989@gmail.com)  or connect via  [LinkedIn](https://www.linkedin.com/in/anilkumarpanda/)
