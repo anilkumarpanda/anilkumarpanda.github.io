@@ -3,6 +3,7 @@ layout: page
 title: About
 permalink: /about/
 ---
+ <a href="url"><img src="https://raw.githubusercontent.com/anilkumarpanda/anilkumarpanda.github.io/master/images/profile.jpeg" height="100" width="auto" style="border-radius:50%"></a>
 
 Hi there, I am Data Scientist based out of Amsterdam.
 I love to use open source projects, machine learning, optimisation techniques to solve my day to day problems.
@@ -23,4 +24,4 @@ I am also the creator of [ESR Bot](https://twitter.com/bot_esr). This bot tweets
 
 Feel free to connect with me.
 
-[Mail](panda.anil1989@gmail.com) | [LinkedIn](https://www.linkedin.com/in/anilkumarpanda/)
+[Mail](panda.anil1989@gmail.com)  |  [LinkedIn](https://www.linkedin.com/in/anilkumarpanda/)

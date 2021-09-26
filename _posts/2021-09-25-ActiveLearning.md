@@ -3,7 +3,7 @@ layout: post
 title: Active Learning
 ---
 
-While browsing Twitter , I came across this [tweet](https://twitter.com/abhi1thakur/status/1441088040873578500)
+While browsing Twitter , I came across this [tweet](https://twitter.com/abhi1thakur/status/1441088040873578500) by Abhishek.
 
 ![Labelling data](../images/abhi_labelling.png)
 
@@ -85,8 +85,8 @@ I found it easiser to create an custom interface in [streamlit](https://streamli
 
 I have used AL in a few some projects with good success, main among them are :
 
-1.AL was used to [solve a cold start problem in NLP](youtube.com/watch?v=oyMawG0SlPU) for ING.
-2.Dataset used to train the [ESR Bot](https://twitter.com/bot_esr) was created using AL.
+1. AL was used to [solve a cold start problem in NLP](youtube.com/watch?v=oyMawG0SlPU) for ING.
+2. Dataset used to train the [ESR Bot](https://twitter.com/bot_esr) was created using AL.
 This twitter bot tweets about the various environment related news to spread awareness.
 
 Another package that uses AL is [Deduplipy](https://www.deduplipy.com/) created by [Frits Hermans](https://www.linkedin.com/in/frits-hermans-data-scientist/). 
