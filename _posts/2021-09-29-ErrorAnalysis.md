@@ -3,11 +3,10 @@ layout: post
 title: Error Analysis for Tabular Data
 ---
 
-Error analysis is an great method, for finding out where you ML model is making mistakes.There are some great videos/ blogs about how to do error analysis for text/image data. e.g video by Andrew Ng.
-However I could not find anything related to error analysis for tablular data. 
-Sure there many python packages that help you to do that. However they are limited to showing you how to use the library and not how to use the error analysis methods to improve model performance. 
+Error analysis is an great method, for finding out where you ML model is making mistakes.There are some great videos/ blogs about how to do error analysis for text/image data. e.g video by Andrew Ng.However I could not find anything related to error analysis for tablular data.
 
-One of the reasons, I can of is , it is intuitively diffcult to look at tabluar data and see if the model is misclassifying the data. The misclassifaction can be due to many reasons :
+
+Sure there many python packages that help you to do that. However they are limited to showing you how to use the library and not how to use the error analysis methods to improve model performance. One of the reasons, I can of is , it is intuitively diffcult to look at tabluar data and see if the model is misclassifying the data. The misclassifaction can be due to many reasons :
 
 1. The data point has data quality issue. E.g loan given to a 300 year old person.
 2. The data point is an outlier. E.g a very wealthy person defaulting on a small loan. 
