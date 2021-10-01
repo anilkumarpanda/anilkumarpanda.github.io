@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Error Analysis for Tabular Data
+title: Error Analysis for Tabular Data (Work In Progress)
 ---
 
 Error analysis is an great method, for finding out where you ML model is making mistakes.There are some great videos/ blogs about how to do error analysis for text/image data. e.g video by Andrew Ng.However I could not find anything related to error analysis for tablular data.
@@ -22,3 +22,6 @@ Plan :
 3. Identify the most important features eg using SHAP values.
 4. For the mislabelled datapoints, engineer new features.
 5. Retrain the model and evaluate the model performance.
+
+
+Stay tuned for more...
