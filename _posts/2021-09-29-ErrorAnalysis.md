@@ -54,16 +54,18 @@ As the plot suggests, we can use only 5 features and achieve the maximum perform
 * `NumSatisfactoryTrades`
 * `AverageMInFile`
 * `MSinceMostRecentInqexcl7days`
-* `ExternalRiskEstimate`]
+* `ExternalRiskEstimate`
 
 Once the features are selected lets tune the parameters for the XGBClassifier.
 The initial parameter grid is used as suggested in the book [Approaching (Almost) Any Machine Learning Problem](https://github.com/abhishekkrthakur/approachingalmost)
 
 The model has the following performance.
 
+<div class="datatable-begin"></div>
 |Training ROC-AUC| Test ROC-AUC| Test Accuracy|
 |:--------------:|:------------:|:-----------:|
 |0.818|0.787|0.71|
+<div class="datatable-end"></div>
 
 There is a slight overfit,however this is `decent` model for the purposes of this blog.
 
@@ -78,42 +80,47 @@ Hence if we can spot and rectify issues in the most important features, that cha
 
 ## Error Analysis
 
-So far so good. Now lets begin with error analysis. For this we will use `ErrorAnalysisDashboard` provided [Microsoft](https://erroranalysis.ai/)
-The ouput of the `ErrorAnalysisDashboard` is a intercative wiget where you can see the error tree. There are many more functionalaties like the grid view etc.
-However I will skip that and focus on the use case. You can see other functionalaties provided by the package in the [examples section](https://github.com/microsoft/responsible-ai-widgets/tree/main/notebooks)
+So far so good. Now lets begin with error analysis. For this we will use `ErrorAnalysisDashboard` provided [Microsoft](https://erroranalysis.ai/).
+The ouput of the `ErrorAnalysisDashboard` is a interactive wiget containing the error tree. There are many more functionalaties like the grid view,ability to exclude features from the error tree etc.
+However I will skip that and focus on the use case which is improving the model via erroranalyis.
+You can see other functionalaties provided by the package in the [examples notebooks](https://github.com/microsoft/responsible-ai-widgets/tree/main/notebooks)
 
 ![ea dashboard](../images/ea_board_before_filtering.png)
 
-To identifty important failure patterns, look for nodes with a stronger red color (i.e., high error rate) and a higher fill line (i.e., high error coverage)
-These samples are marked `dark red` in the tree.
+To identifty important failure patterns, look for nodes with a stronger `dark red` (i.e., high error rate) and a higher fill line (i.e., high error coverage)
 
 * Error coverage shows the percentage of errors that are concentrated in the selection out of all errors present in the dataset.
 * Error rate represents the percentage of instances in the node for which the system has failed.
 
 Ideally it makes sense to start the error analysis process by looking into these leaf nodes first.
 
-We can see that for data points where `ExternalRiskEstimate <= 83.50` and `NetFractionRevolvingBurden <= 59.50` and `NumSatisfactoryTrades <= 1.50` the error rate is 48.11 % and the error coverage is 9.75%.
+For our usecase, we can see that for data points where `ExternalRiskEstimate <= 83.50` and `NetFractionRevolvingBurden <= 59.50` and `NumSatisfactoryTrades <= 1.50` the error rate is 48.11 % and the error coverage is 9.75%.
 
-Next, lets look into the features and see if we can spot something, which look like either data quality or anamolies.
+Next, lets look into these features and see if we can spot something, which look like either data quality or anamolies.
 
-If we look the `ExternalRiskEstimate` feature, we notice that there are few data points that have value < 0. A `ExternalRiskEstimate` of less that 0 does look like a data quality issue and can be eliminated.
+If we look the `ExternalRiskEstimate` feature, we notice that there are few data points with values < 0.
+A `ExternalRiskEstimate` of less that 0 looks like a data quality issue and can be eliminated.
 
 ![External Risk Estimate](../images/ea_dep_external_risk.png)
 
-Similarly if we look at the `NumSatisfactoryTrades` features, there are few datapoints with values < 0 . Number of trades with values < 0 again seems like data quality issue.
+Similarly if we look at the `NumSatisfactoryTrades` feature, there are few datapoints with values < 0 .
+Number of trades with values < 0 again seems like a data quality issue. We will eliminate these as well.
 
 ![Num Trades](../images/ea_dep_trades.png)
 
 Once we remove the datapoints and rerun the model, we get the following model results.
 
+<div class="datatable-begin"></div>
+
 |Training ROC-AUC| Test ROC-AUC| Test Accuracy|
 |:--------------:|:------------:|:-----------:|
 |0.822|0.805|0.73|
 
+<div class="datatable-end"></div>
+
 The model performance has improved! 
 
 Similarly one can look at other variable/s and identify datapoints leading to error and treat them.
-
 In this example, we eliminated the data points, however in your own use case these points colud be treated differenlty based on business knowledge.
 
 Apart from the library used above,[mealy](https://github.com/dataiku-research/mealy) is another library that can be used for error analysis.
