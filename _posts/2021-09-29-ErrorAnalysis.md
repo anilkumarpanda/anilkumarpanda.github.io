@@ -125,5 +125,5 @@ In this example, we eliminated the data points, however in your own use case the
 
 Apart from the library used above,[mealy](https://github.com/dataiku-research/mealy) is another library that can be used for error analysis.
 
-The notebook and code for reproducing the above results can be found in my github account.
+The notebook and code for reproducing the above results can be found in [my github account](https://github.com/anilkumarpanda/erroranalysis/blob/main/notebooks/error_analysis.ipynb).
 
