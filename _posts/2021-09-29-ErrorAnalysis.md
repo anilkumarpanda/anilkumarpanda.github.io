@@ -63,7 +63,7 @@ The model has the following performance.
 
 <div class="datatable-begin"></div>
 |Training ROC-AUC| Test ROC-AUC| Test Accuracy|
-|:--------------:|:------------:|:-----------:|
+|--------------|------------|-----------|
 |0.818|0.787|0.71|
 <div class="datatable-end"></div>
 
@@ -113,7 +113,7 @@ Once we remove the datapoints and rerun the model, we get the following model re
 <div class="datatable-begin"></div>
 
 |Training ROC-AUC| Test ROC-AUC| Test Accuracy|
-|:--------------:|:------------:|:-----------:|
+|--------------|------------|-----------|
 |0.822|0.805|0.73|
 
 <div class="datatable-end"></div>
