@@ -29,13 +29,13 @@ The data and the metadata can be obtained by [filling this form](https://communi
 
 ## Problem Statement
 
-In this challenge we are tasked to predict the variable `RiskPerformance`. I will not go into detail about the problem and the predictor variables. You can read the details in the [FICO Explainability Challenge website](https://community.fico.com/s/explainable-machine-learning-challenge). 
+In this challenge we are tasked to predict the variable `RiskPerformance`. I will not go into detail about the problem and the predictor variables. You can read the details in the [FICO Explainability Challenge website](https://community.fico.com/s/explainable-machine-learning-challenge).
 
 The dataset is balanced with ~52% postive class and ~48% negative class.
 
 ## ML Model
 
-Before error analysis,we need a model,so lets go ahead build one. We will make use of many packages to make our life easy. 
+Before error analysis,we need a model,so lets go ahead build one. We will make use of many packages to make our life easy.
 Main among them are [Probatus](https://ing-bank.github.io/probatus/index.html) for feature selection and analysis,[Yellowbrick](https://www.scikit-yb.org/en/latest/api/classifier/threshold.html) for decidicng threshold,[XGBoost](https://xgboost.readthedocs.io/en/latest/index.html) for classification and [erroranalysis](https://erroranalysis.ai/) for erroranalysis and offcourse scikit-learn for all other things.
 
 ### Train Test Selection
@@ -61,11 +61,9 @@ The initial parameter grid is used as suggested in the book [Approaching (Almost
 
 The model has the following performance.
 
-
 |Training ROC-AUC| Test ROC-AUC| Test Accuracy|
-|--------------|------------|-----------|
+| ------------ | ---------- | --------- |
 |0.818|0.787|0.71|
-
 
 There is a slight overfit,however this is `decent` model for the purposes of this blog.
 
@@ -110,13 +108,11 @@ Number of trades with values < 0 again seems like a data quality issue. We will 
 
 Once we remove the datapoints and rerun the model, we get the following model results.
 
-
 |Training ROC-AUC| Test ROC-AUC| Test Accuracy|
-|--------------|------------|-----------|
+| ------------ | ---------- | --------- |
 |0.822|0.805|0.73|
 
-
-The model performance has improved! 
+The model performance has improved!
 
 Similarly one can look at other variable/s and identify datapoints leading to error and treat them.
 In this example, we eliminated the data points, however in your own use case these points colud be treated differenlty based on business knowledge.
@@ -124,4 +120,3 @@ In this example, we eliminated the data points, however in your own use case the
 Apart from the library used above,[mealy](https://github.com/dataiku-research/mealy) is another library that can be used for error analysis.
 
 The notebook and code for reproducing the above results can be found in [my github account](https://github.com/anilkumarpanda/erroranalysis/blob/main/notebooks/error_analysis.ipynb).
-
