@@ -63,7 +63,7 @@ The model has the following performance.
 
 |Training ROC-AUC| Test ROC-AUC| Test Accuracy|
 | ------------ | ---------- | --------- |
-|0.818|0.787|0.71|
+|0.789|0.778|0.713|
 
 There is a slight overfit,however this is `decent` model for the purposes of this blog.
 
@@ -110,7 +110,7 @@ Once we remove the datapoints and rerun the model, we get the following model re
 
 |Training ROC-AUC| Test ROC-AUC| Test Accuracy|
 | ------------ | ---------- | --------- |
-|0.822|0.805|0.73|
+|0.793|0.795|0.732|
 
 The model performance has improved!
 
