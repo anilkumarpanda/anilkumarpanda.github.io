@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Error Analysis for Tabular Data
+title: Error Analysis for Tabular Data - Part 1
 ---
 
 Error analysis simply means looking the misclassified data points and trying to infer why is the model making error on this subpopulation.
