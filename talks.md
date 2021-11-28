@@ -6,6 +6,8 @@ permalink: /talks/
 
 As a part my work, I also share my learnings via talks and presentations. You can find them below.
 
+![Presenting](../images/ai_expo_al.jpeg)
+
 * ## AI & Big Data Expo, Amsterdam
     
     Date : 23rd Nov 2021
