@@ -4,4 +4,4 @@ title: Talks
 permalink: /talks/
 ---
 
-Link to all mt talk. Stay tuned..
+Links to all my talks. Stay tuned..
