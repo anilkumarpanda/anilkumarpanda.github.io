@@ -22,3 +22,27 @@ Lets say for you classification model the minimum KPI is ROC-AUC of 0.75. If we 
 
 Lets take the example for the [model](https://anilkumarpanda.github.io/ErrorAnalysis/) I created for the FICO challenge.
 The model test performance is 0.79
+After plugging in the required variables,
+
+```python
+from mvtk import credibility
+# Number of positive samples
+positives = 1539
+# Number of negative samples
+negatives = 1420
+# ROC-AUC of the model
+roc_auc = 0.79
+# ROC-AUC cutoff
+cutoff = 75/100
+auc_positives, auc_negatives = credibility.roc_auc_preprocess(positives, negatives, roc_auc)
+prob_below = credibility.prob_below(auc_positives, auc_negatives, cutoff) * 100
+print(f'Probability of ROC-AUC being below {cutoff}% is : {prob_below:.2f}%')
+
+```
+
+we see that the probability of ROC-AUC being below 0.75% is : 0.00%
+Sweet !!
+
+So we can confident that given more data(without drift), our model AUC will most likely drop below the cut-off.
+
+Similarly, we can also calculate the metric credibility for other performance measures like precision,recall etc.
