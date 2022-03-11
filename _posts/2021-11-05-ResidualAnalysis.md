@@ -5,7 +5,7 @@ title: Error Analysis for Tabular Data - Part 2
 
 In this post we will explore the Residual Analysis method for model debugging.
 
-I will adapt the Residual analysis methos from [this](https://nbviewer.org/github/jphall663/GWU_rml/blob/master/lecture_5.ipynb) repo.
+I will adapt the Residual analysis method from [this](https://nbviewer.org/github/jphall663/GWU_rml/blob/master/lecture_5.ipynb) repo.
 
 ** Residual Analysis **
 
