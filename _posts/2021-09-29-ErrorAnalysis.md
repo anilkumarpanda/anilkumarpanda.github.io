@@ -61,9 +61,7 @@ The initial parameter grid is used as suggested in the book [Approaching (Almost
 
 The model has the following performance.
 
-|Training ROC-AUC| Test ROC-AUC| Test Accuracy|
-| ------------ | ---------- | --------- |
-|0.789|0.778|0.713|
+![before performance](../images/ea_perf_before.png)
 
 There is a slight overfit,however this is `decent` model for the purposes of this blog.
 
@@ -108,9 +106,7 @@ Number of trades with values < 0 again seems like a data quality issue. We will 
 
 Once we remove the datapoints and rerun the model, we get the following model results.
 
-|Training ROC-AUC| Test ROC-AUC| Test Accuracy|
-| ------------ | ---------- | --------- |
-|0.793|0.795|0.732|
+![before performance](../images/ea_perf_after.png)
 
 The model performance has improved!
 
