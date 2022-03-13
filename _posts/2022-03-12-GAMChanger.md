@@ -15,7 +15,7 @@ There are two possible reasons this may happen.
 1. The relationship between that feature and target is exactly as the model has learnt, it may not be intuitive, nevetheless it is true.
 2. Due to data available training sample, the model learns a relationship that is not true in the real world.
 
-![learned relationship](../images/gam_edit_learned_relation.png)
+![learned relationship](../images/gam_edit_learned_relation-1.png)
 
 Consider the example, where we are trying to predict the probability of getting a disease X based on the age of patient. We see that as age increases, the probability of getting X increases as well. However we see a drop after 90 year of age. This can be
 
