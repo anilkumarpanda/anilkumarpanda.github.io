@@ -71,3 +71,25 @@ Intuitively,higher the grade, less chances of default. However on closer analysi
 
 This is an interesting observation. That means that the model is making errors if a `good looking` application defaults.
 
+Residual analysis on feature level can be used to model behaviour in an univariate way. Can we identidy more such failure modes for the model? A definite pattern in which the model is making mistakes?
+
+### Modelling of Residuals
+
+Modeling residuals with interpretable models is another great way to learn more about the mistakes your AI system could make. e.g A decision tree model of the example ML model’s residuals for loan_default = 1, or customer’s who default. While it reflects what was discovered before, it does so in a very direct way that exposes the logic of the failures.In fact, it’s even possible to build programmatic rules about when the model is likely to fail the worst.
+
+![residual_modelling](../images/ra_modeling_residuals.png)
+
+* model shows high residuals when the loan `Grade = A and DTI <= 20` essentially when a `good looking` application fails.
+
+* this indicates that only the above features are not good enough. We need to create features that deal with deeper customer behaviors.
+
+To summarize, the residual analysis is a great way to understand the model behaviour. These simple plots can help you uncover pockets of data that are likely to be the cause of the model’s failure.
+Once you indentify these you can either 
+
+1. engineer new features
+2. collect more data wherever possible
+3. create business rules at inference time.
+
+The code to produce the plots can be found in the [repo](https://github.com/anilkumarpanda/blog_series/blob/master/notebooks/02_residual_analysis.ipynb)
+
+A bit shout out to [Patrick Hall](https://github.com/jphall663) for the great work on model debugging.
