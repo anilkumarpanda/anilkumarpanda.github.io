@@ -65,4 +65,4 @@ Once you indentify these you can either
 
 The code to produce the plots can be found in the [repo](https://github.com/anilkumarpanda/blog_series/blob/master/notebooks/02_residual_analysis.ipynb)
 
-A bit shout out to [Patrick Hall](https://github.com/jphall663) for the great work on [model debugging](https://nbviewer.org/github/jphall663/GWU_rml/blob/master/lecture_5.ipynb).
+A big shout out to [Patrick Hall](https://github.com/jphall663) for the great work on [model debugging](https://nbviewer.org/github/jphall663/GWU_rml/blob/master/lecture_5.ipynb).
