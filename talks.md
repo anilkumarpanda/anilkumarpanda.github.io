@@ -26,8 +26,8 @@ As a part my work, I also share my learnings via talks and presentations. You ca
     Date : Apr 2021
 
     Topics : 
-    * Active Learning : Solving a cold start problem in NLP.
-    * Introduction to Fairness in ML
+  * Active Learning : Solving a cold start problem in NLP.
+  * Introduction to Fairness in ML
 
 * ## ING : Data Science Meetup
 
