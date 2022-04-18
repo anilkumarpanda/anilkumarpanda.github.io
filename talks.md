@@ -13,7 +13,7 @@ As a part my work, I also share my learnings via talks and presentations. You ca
 
     Date : 14th Apr 2022
 
-    Topic : [Debugging Machine Learning Models](https://dsfc.nl/sessions/debugging-for-ml-models/)
+    Topic : [Debugging Machine Learning Models](https://dsfc.nl/sessions/debugging-for-ml-models/)[slides](https://drive.google.com/file/d/14pdTGLGjiiPIbXWQVBvZQHEYX0XgrYAe/view?usp=sharing)
 
 * ## AI & Big Data Expo, Amsterdam
 
@@ -25,8 +25,8 @@ As a part my work, I also share my learnings via talks and presentations. You ca
 
     Date : Apr 2021
 
-    Topics : 
-  * Active Learning : Solving a cold start problem in NLP.
+    Topics :
+  * [Active Learning : Solving a cold start problem in NLP](https://drive.google.com/file/d/14pdTGLGjiiPIbXWQVBvZQHEYX0XgrYAe/view?usp=sharing).
   * Introduction to Fairness in ML
 
 * ## ING : Data Science Meetup
