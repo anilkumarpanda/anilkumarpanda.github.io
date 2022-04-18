@@ -13,7 +13,7 @@ As a part my work, I also share my learnings via talks and presentations. You ca
 
     Date : 14th Apr 2022
 
-    Topic : [Debugging Machine Learning Models](https://dsfc.nl/sessions/debugging-for-ml-models/)[slides](https://drive.google.com/file/d/14pdTGLGjiiPIbXWQVBvZQHEYX0XgrYAe/view?usp=sharing)
+    Topic : [Debugging Machine Learning Models](https://drive.google.com/file/d/14pdTGLGjiiPIbXWQVBvZQHEYX0XgrYAe/view?usp=sharing)
 
 * ## AI & Big Data Expo, Amsterdam
 
