@@ -15,7 +15,8 @@ I am also an avid reader of history, politics and economics . Some of the book I
 2. Silk Roads
 3. Half Lion
 4. Jugalbandi
-5. The Bhutto Dynasty: The Struggle for Power in Pakistan
+5. [The Bhutto Dynasty: The Struggle for Power in Pakistan](https://amzn.to/3JYQMQo)
+6. [The Art of Engineering by Hamming](https://amzn.to/3QPdTyZ)
 
 I am also the creator of [ESR Bot](https://twitter.com/bot_esr). This bot tweets about the various environment related news to create awareness.
 
