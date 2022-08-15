@@ -4,7 +4,7 @@ title: Talks
 permalink: /talks/
 ---
 
-As a part my work, I also share my learnings via talks and presentations. You can find them below.
+As a part my work, I also share my learnings via talks and presentations. You can find a few of them below.
 
 ![Presenting](../images/ai_expo_al.jpeg)
 
