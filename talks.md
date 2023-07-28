@@ -10,7 +10,7 @@ As a part my work, I also share my learnings via talks and presentations. You ca
 
 * ## Kick Start AI Summer Edition 2023
 
-    ![Presenting](../images/ai_expo_al.jpeg)
+    ![Presenting](../images/kickstart_ai.jpeg)
 
     Date : 6th July 2023
 
